@@ -1,0 +1,16 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+.navbar{
+    border-bottom: 1px solid #008ED6;
+    opacity: 0.8;
+}
+.p-4 p{
+    font-size: 20px;
+}
+.homesection {
+    background-image: url("images/cover.jpg");
+    
+    
+}
