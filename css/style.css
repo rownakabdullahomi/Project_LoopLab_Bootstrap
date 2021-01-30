@@ -6,11 +6,57 @@ body {
     border-bottom: 1px solid #008ED6;
     opacity: 0.8;
 }
-.p-4 p{
-    font-size: 20px;
+.home_paragraph p {
+    margin-top: 8px;
 }
-.homesection {
-    background-image: url("images/cover.jpg");
-    
-    
+#home_section {
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 900px;  
+}
+.dark_overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 900px;
+}
+.home_inner{
+    padding-top: 150px;
+}
+.card_form{
+    opacity: 0.8;
+}
+.fa{
+    color: #008ED6;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#explore_bottom img{
+    width: 80%;
+    margin-left: 80px;
+}
+#explore_bottom .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#create_bottom .fa{
+    color: #008ED6;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#share_bottom .fa {
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
 }
